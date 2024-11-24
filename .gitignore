@@ -1,0 +1,54 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Output of `go build`
+/bin/
+/build/
+*.out
+
+# Dependency directories (for vendoring)
+/vendor/
+
+# Go Modules
+/go.sum
+/go.work
+/go.work.sum
+
+# IDE and editor specific files
+.vscode/
+.idea/
+*.iml
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs and debugging
+*.log
+*.trace
+*.prof
+*.svg
+*.png
+
+# Environment files
+.env
+.env.local
+.env.*
+!.env.example
+
+# Temporary and cache files
+/tmp/
+*.tmp
+*.swp
+*.swo
+
+# Coverage reports
+*.cover
+coverage.out
+
+# Docker
+docker-compose.override.yml
